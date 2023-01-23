@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.584" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To verify the login page" name="To validate the login page" time="0.067">
+<system-out><![CDATA[
+Given user navigated to loginpage "url".....................................passed
+When provided "username" and "password".....................................passed
+And submit the login........................................................passed
+Then navigates to home page.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
