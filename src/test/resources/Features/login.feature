@@ -1,7 +1,12 @@
 Feature: To verify the login page
 
-  Scenario: To validate the login page
-    Given user navigated to loginpage "url"
-    When provided "username" and "password"
-    And submit the login
-    Then navigates to home page
+  Background: user is logged In
+    Given user is on login page
+    When user enter username and password
+    And clicks on login button
+    Then user is navigated to the home page
+
+  Scenario: Check admin module
+    When user clicks on admin module
+    And user enters username field value
+    Then user clicks on search button
